@@ -6,8 +6,8 @@
 <% for(var i=0;i<=TITLECONTENT.length;i++) { %>
 
 
-<h1><%=TITLECONTENT[i]%></h1>
-<p><%= POSTCONTENT[i]%></p>
+<h1><a href="/posts/<%=TITLECONTENT[i]%>" class="home_title"><%=TITLECONTENT[i]%></a></h1>
+<p><%= POSTCONTENT[i] %><a href="/posts/<%=TITLECONTENT[i]%>" class="home_title"><%=Read%></a></p>
 
 <% } %>
 
